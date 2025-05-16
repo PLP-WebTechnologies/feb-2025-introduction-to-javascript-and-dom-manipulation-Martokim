@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Example</title>
+  <style>
+    .highlight {
+      color: white;
+      background-color: teal;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="intro">This is a sample paragraph.</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </section>
+
+    <ul id="list-container">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website by <b>marto!</b> </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
